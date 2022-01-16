@@ -1,0 +1,22 @@
+{
+  "name": "malvabombom.xyz",
+  "version": "1.0.0",
+  "description": "Personal WebSite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malvabombom/malvabombom.xyz.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "malvabombom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malvabombom/malvabombom.xyz/issues"
+  },
+  "homepage": "https://github.com/malvabombom/malvabombom.xyz#readme"
+}
