@@ -1,10 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&display=swap");
 body {
   margin: 0;
   padding: 0;
   color: rgba(39, 39, 39, 0.993);
+  font-family: 'Montserrat', sans-serif;
 }
 
-.magic__border {
+body h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 95.273px;
+  line-height: 117px;
+}
+
+body h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58.0501px;
+  line-height: 71px;
+}
+
+body p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30.5806px;
+  line-height: 52px;
+}
+
+.marvel__grid {
+  margin-top: 213px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.marvel__border {
   /* Colors / Black */
   border: 2px solid #18191F;
   -webkit-box-sizing: border-box;
