@@ -1,51 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&display=swap");
 
-$color__crema : #FFF4CC;
-$color__blanco : #FFFFFF;
-$color__amarillo : #FFBD12;
-$color__naranja: #F95A2C;
-$color__roca: #FFF3F8;
-$color__pistache: #D6FCF7;
-$color__salmon: #FF9692;
-$color__ultramar:#1947E6;
+$color__crema: #fff4cc;
+$color__blanco: #ffffff;
+$color__amarillo: #ffbd12;
+$color__naranja: #f95a2c;
+$color__roca: #fff3f8;
+$color__pistache: #d6fcf7;
+$color__salmon: #ff9692;
+$color__ultramar: #1947e6;
 
-body{
-    margin: 0;
-    padding: 0;
-    color:rgba(39, 39, 39, 0.993);
-    font-family: 'Montserrat', sans-serif;
-    h1{
-        font-style: normal;
-        font-weight: 800;
-        font-size: 95.273px;
-        line-height: 117px;
-    }
-    h2{
-        font-style: normal;
-        font-weight: 800;
-        font-size: 58.0501px;
-        line-height: 71px;
-    }
-    p{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30.5806px;
-        line-height: 52px;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(39, 39, 39, 0.993);
+  font-family: "Montserrat", sans-serif;
+  h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 95.273px;
+    line-height: 117px;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58.0501px;
+    line-height: 71px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.5806px;
+    line-height: 52px;
+  }
 }
-.marvel{
-
-    &__grid{
-        margin-top: 213px;
-        margin-left: 120px;
-        margin-right: 120px;
-    }
-    &__border{
-        /* Colors / Black */
-        border: 2px solid #18191F;
-        box-sizing: border-box;
-        /* Shadow / 400 */
-        box-shadow: 0px 4px 0px #18191F;
-        border-radius: 16px;
-    }
+.marvel {
+  &__grid {
+    margin-top: 213px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  &__border {
+    /* Colors / Black */
+    border: 2px solid #18191f;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    box-shadow: 0px 4px 0px #18191f;
+    border-radius: 16px;
+  }
 }
+
+.hand:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
