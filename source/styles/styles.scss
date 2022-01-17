@@ -1,6 +1,23 @@
+$color__crema : #FFF4CC;
+$color__blanco : #FFFFFF;
+$color__amarillo : #FFBD12;
+$color__naranja: #F95A2C;
+$color__roca: #FFF3F8;
+$color__pistache: #D6FCF7;
+$color__salmon: #FF9692;
+$color__ultramar:#1947E6;
+
 body{
     margin: 0;
     padding: 0;
-    background: #FCF5EA;
     color:rgba(39, 39, 39, 0.993);
+}
+
+.magic__border{
+    /* Colors / Black */
+    border: 2px solid #18191F;
+    box-sizing: border-box;
+    /* Shadow / 400 */
+    box-shadow: 0px 4px 0px #18191F;
+    border-radius: 16px;
 }
