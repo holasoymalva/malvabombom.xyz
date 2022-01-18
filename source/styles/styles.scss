@@ -14,6 +14,9 @@ body {
   padding: 0;
   color: rgba(39, 39, 39, 0.993);
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+
   h1 {
     font-style: normal;
     font-weight: 800;
@@ -31,6 +34,11 @@ body {
     font-weight: 500;
     font-size: 30.5806px;
     line-height: 52px;
+  }
+  footer{
+    flex-shrink: 0;
+    text-align: center;
+    height: 45px;
   }
 }
 .marvel{
