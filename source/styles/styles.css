@@ -34,6 +34,17 @@ body p {
   line-height: 52px;
 }
 
+body header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px 120px 12px 120px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53.17%, #FFFFFF), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #FFFFFF 53.17%, rgba(255, 255, 255, 0) 100%);
+  height: 100px;
+  color: tomato;
+}
+
 body footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -42,7 +53,7 @@ body footer {
 }
 
 .marvel {
-  margin-top: 120px;
+  margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
   margin-bottom: 120px;
@@ -273,6 +284,91 @@ body footer {
   100% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+  }
+}
+
+.rainbow:hover {
+  -webkit-animation: rainbow 2.5s linear;
+          animation: rainbow 2.5s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow {
+  100%, 0% {
+    color: red;
+  }
+  8% {
+    color: #ff7f00;
+  }
+  16% {
+    color: yellow;
+  }
+  25% {
+    color: chartreuse;
+  }
+  33% {
+    color: lime;
+  }
+  41% {
+    color: springgreen;
+  }
+  50% {
+    color: cyan;
+  }
+  58% {
+    color: #007fff;
+  }
+  66% {
+    color: blue;
+  }
+  75% {
+    color: #7f00ff;
+  }
+  83% {
+    color: magenta;
+  }
+  91% {
+    color: #ff007f;
+  }
+}
+
+@keyframes rainbow {
+  100%, 0% {
+    color: red;
+  }
+  8% {
+    color: #ff7f00;
+  }
+  16% {
+    color: yellow;
+  }
+  25% {
+    color: chartreuse;
+  }
+  33% {
+    color: lime;
+  }
+  41% {
+    color: springgreen;
+  }
+  50% {
+    color: cyan;
+  }
+  58% {
+    color: #007fff;
+  }
+  66% {
+    color: blue;
+  }
+  75% {
+    color: #7f00ff;
+  }
+  83% {
+    color: magenta;
+  }
+  91% {
+    color: #ff007f;
   }
 }
 /*# sourceMappingURL=styles.css.map */
