@@ -71,7 +71,7 @@ body p {
   border-radius: 34.828px;
 }
 
-.hand:hover {
+.shake_it:hover {
   -webkit-animation: shake 0.5s;
           animation: shake 0.5s;
   -webkit-animation-iteration-count: infinite;
