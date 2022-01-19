@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&display=swap");
-*, ::after, ::before {
+*,
+::after,
+::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-width: 0;
@@ -96,8 +98,8 @@ body header {
   position: sticky;
   top: 0;
   padding: 10px 120px 12px 120px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(53.17%, #FFFFFF), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #FFFFFF 53.17%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(53.17%, #ffffff), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #ffffff 53.17%, rgba(255, 255, 255, 0) 100%);
   height: 100px;
   color: tomato;
 }
@@ -109,13 +111,20 @@ body footer {
   height: 45px;
 }
 
-body blockquote, body dd, body dl, body figure, body h1, body h2, body h3, body h4, body h5, body h6, body hr, body p, body pre {
+body blockquote,
+body dd,
+body dl,
+body figure,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body hr,
+body p,
+body pre {
   margin: 0;
-}
-
-body .grid-cols-3 {
-  -ms-grid-columns: (minmax(0, 1fr))[3];
-      grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 body .gap-4 {
@@ -126,6 +135,46 @@ body .gap-4 {
 body .grid {
   display: -ms-grid;
   display: grid;
+  /* Extra small devices (phones, 600px and down) */
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  body .grid {
+    -ms-grid-columns: (minmax(0, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body .grid {
+    -ms-grid-columns: (minmax(0, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body .grid {
+    -ms-grid-columns: (minmax(0, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body .grid {
+    -ms-grid-columns: (minmax(0, 1fr))[3];
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body .grid {
+    -ms-grid-columns: (minmax(0, 1fr))[3];
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .marvel {
@@ -153,7 +202,31 @@ body .grid {
   margin-top: 30px;
   width: 100%;
   height: 287px;
-  background: #FAFAFA;
+  background: #fafafa;
+  border: 6.7957px solid #000000;
+  border-radius: 34.828px;
+}
+
+.marvel__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.marvel__flex div {
+  margin: 15px;
+}
+
+.marvel__card {
+  margin-top: 30px;
+  width: 160px;
+  height: 250px;
+  background: #fafafa;
   border: 6.7957px solid #000000;
   border-radius: 34.828px;
 }
@@ -170,6 +243,13 @@ body .grid {
 
 .fa:hover {
   opacity: 0.8;
+}
+
+.slow_shake_it:hover {
+  -webkit-animation: shake 4.5s;
+          animation: shake 4.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .shake_it:hover {
@@ -371,7 +451,8 @@ body .grid {
 }
 
 @-webkit-keyframes rainbow {
-  100%, 0% {
+  100%,
+  0% {
     color: red;
   }
   8% {
@@ -410,7 +491,8 @@ body .grid {
 }
 
 @keyframes rainbow {
-  100%, 0% {
+  100%,
+  0% {
     color: red;
   }
   8% {

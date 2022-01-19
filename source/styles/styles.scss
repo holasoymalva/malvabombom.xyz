@@ -9,8 +9,12 @@ $color__pistache: #d6fcf7;
 $color__salmon: #ff9692;
 $color__ultramar: #1947e6;
 $color__dark: rgba(39, 39, 39, 0.993);
+$breakpoint-tablet: 768px;
+$desktop-width: 1024px;
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
@@ -56,8 +60,8 @@ body {
     font-size: 58.0501px;
     line-height: 71px;
   }
-  
-  .marker:hover{
+
+  .marker:hover {
     background-color: #b5d7fe;
   }
   p {
@@ -77,35 +81,73 @@ body {
     color: inherit;
     text-decoration: inherit;
   }
-  header{
+  header {
     position: sticky;
-    top: 0; 
-    padding: 10px 120px 12px 120px; 
-    // background-color: white; 
-    background: linear-gradient(180deg, #FFFFFF 53.17%, rgba(255, 255, 255, 0) 100%);
-    height: 100px; 
+    top: 0;
+    padding: 10px 120px 12px 120px;
+    // background-color: white;
+    background: linear-gradient(
+      180deg,
+      #ffffff 53.17%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    height: 100px;
     color: tomato;
   }
-  footer{
+  footer {
     flex-shrink: 0;
     text-align: center;
     height: 45px;
   }
-  blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+  blockquote,
+  dd,
+  dl,
+  figure,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hr,
+  p,
+  pre {
     margin: 0;
   }
-  .grid-cols-3 {
-    grid-template-columns: repeat(3,minmax(0,1fr));
-  }
   .gap-4 {
-      grid-gap: 1rem;
-      gap: 1rem;
+    grid-gap: 1rem;
+    gap: 1rem;
   }
   .grid {
-      display: grid;
+    display: grid;
+    
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 }
-.marvel{
+.marvel {
   margin-left: 120px;
   margin-right: 120px;
   margin-bottom: 120px;
@@ -118,14 +160,30 @@ body {
     box-shadow: 0px 4px 0px #18191f;
     border-radius: 16px;
   }
-  &__section{
+  &__section {
     margin-top: 40px;
   }
-  &__project{
+  &__project {
     margin-top: 30px;
     width: 100%;
     height: 287px;
-    background: #FAFAFA;
+    background: #fafafa;
+    border: 6.7957px solid #000000;
+    border-radius: 34.828px;
+  }
+  &__flex {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    div{
+      margin: 15px;
+    }
+  }
+  &__card {
+    margin-top: 30px;
+    width: 160px;
+    height: 250px;
+    background: #fafafa;
     border: 6.7957px solid #000000;
     border-radius: 34.828px;
   }
@@ -142,89 +200,131 @@ body {
 }
 
 .fa:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
+.slow_shake_it:hover {
+  animation: shake 4.5s;
+  animation-iteration-count: infinite;
+}
 
 .shake_it:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 .wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @keyframes wave-animation {
-  0% { transform: rotate( 0.0deg) }
-  10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-  20% { transform: rotate(-8.0deg) }
-  30% { transform: rotate(14.0deg) }
-  40% { transform: rotate(-4.0deg) }
-  50% { transform: rotate(10.0deg) }
-  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-
-.rainbow:hover{
+.rainbow:hover {
   animation: rainbow 2.5s linear;
   animation-iteration-count: infinite;
 }
 
-@keyframes rainbow{
-  100%,0%{
-    color: rgb(255,0,0);
+@keyframes rainbow {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
   }
-  8%{
-    color: rgb(255,127,0);
+  8% {
+    color: rgb(255, 127, 0);
   }
-  16%{
-    color: rgb(255,255,0);
+  16% {
+    color: rgb(255, 255, 0);
   }
-  25%{
-    color: rgb(127,255,0);
+  25% {
+    color: rgb(127, 255, 0);
   }
-  33%{
-    color: rgb(0,255,0);
+  33% {
+    color: rgb(0, 255, 0);
   }
-  41%{
-    color: rgb(0,255,127);
+  41% {
+    color: rgb(0, 255, 127);
   }
-  50%{
-    color: rgb(0,255,255);
+  50% {
+    color: rgb(0, 255, 255);
   }
-  58%{
-    color: rgb(0,127,255);
+  58% {
+    color: rgb(0, 127, 255);
   }
-  66%{
-    color: rgb(0,0,255);
+  66% {
+    color: rgb(0, 0, 255);
   }
-  75%{
-    color: rgb(127,0,255);
+  75% {
+    color: rgb(127, 0, 255);
   }
-  83%{
-    color: rgb(255,0,255);
+  83% {
+    color: rgb(255, 0, 255);
   }
-  91%{
-    color: rgb(255,0,127);
+  91% {
+    color: rgb(255, 0, 127);
   }
 }
 
@@ -245,14 +345,28 @@ body {
 }
 .jump:hover {
   animation-name: jump;
-  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
 }
 @keyframes jump {
-  0%   { transform: scale(1,1)      translateY(0); }
-  10%  { transform: scale(1.1,.9)   translateY(0); }
-  30%  { transform: scale(.9,1.1)   translateY(-40px); }
-  50%  { transform: scale(1.05,.95) translateY(0); }
-  57%  { transform: scale(1,1)      translateY(-7px); }
-  64%  { transform: scale(1,1)      translateY(0); }
-  100% { transform: scale(1,1)      translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-40px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
