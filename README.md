@@ -10,7 +10,19 @@
 - Pug
 ### Project build in 4 fases:
 
-- 1: Build the core styles
-- 2: Build the core components with react
-- 3: Add a service to automatically update site content
-- 4: Rebuild and Bug correction
+- [ ] Build the core styles
+  - [ ] SCSS GRID
+  - [ ] SCSS FLEX
+  - [ ] Base Styles
+  - [ ] Responsive
+- [ ] Build the core components with react
+  - [ ] Cards
+  - [ ] Projects
+  - [ ] Sections
+  - [ ] Header
+  - [ ] Footer
+- [ ] Add a service to automatically update site content
+  - [ ] Data Fetch
+  - [ ] Data Update
+  - [ ] Update Page Functionality
+- [ ] Rebuild and Bug correction
