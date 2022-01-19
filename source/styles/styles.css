@@ -127,50 +127,42 @@ body pre {
   margin: 0;
 }
 
-body .gap-4 {
+body .grid {
+  display: -ms-grid;
+  display: grid;
   grid-gap: 1rem;
   gap: 1rem;
 }
 
-body .grid {
-  display: -ms-grid;
-  display: grid;
-  /* Extra small devices (phones, 600px and down) */
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* Medium devices (landscape tablets, 768px and up) */
-  /* Large devices (laptops/desktops, 992px and up) */
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-}
-
-@media only screen and (max-width: 600px) {
+@media (max-width: 599px) {
   body .grid {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 767px) {
   body .grid {
     -ms-grid-columns: (minmax(0, 1fr))[1];
         grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   body .grid {
     -ms-grid-columns: (minmax(0, 1fr))[2];
         grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   body .grid {
     -ms-grid-columns: (minmax(0, 1fr))[3];
         grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1024px) {
   body .grid {
     -ms-grid-columns: (minmax(0, 1fr))[3];
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -178,9 +170,29 @@ body .grid {
 }
 
 .marvel {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 120px;
+}
+
+@media (max-width: 599px) {
+  .marvel p {
+    font-size: 22px;
+  }
+  .marvel h1 {
+    font-size: 35px;
+  }
+  .marvel h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .marvel {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+  }
 }
 
 .marvel__border {
@@ -220,6 +232,20 @@ body .grid {
 
 .marvel__flex div {
   margin: 15px;
+}
+
+@media (max-width: 599px) {
+  .marvel__flex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .marvel__flex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .marvel__card {
