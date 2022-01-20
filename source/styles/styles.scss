@@ -204,8 +204,11 @@ body {
     width: 100%;
     height: 287px;
     background: #fafafa;
-    border: 6.7957px solid $color__dark;
-    border-radius: 34.828px;
+    // box-shadow: 0px 13px 24px rgba(0, 0, 0, 0.14), inset 0px 4px 10px 3px rgba(255, 255, 255, 0.66), inset 0px 9px 6px rgba(255, 225, 208, 0.63), inset 0px -7px 5px rgba(79, 94, 88, 0.35);
+    border-radius: 53px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
   &__flex {
     display: flex;
