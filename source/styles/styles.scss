@@ -68,8 +68,6 @@ body {
   padding: 0;
   color: $color__dark;
   font-family: "Montserrat", sans-serif;
-  // display: flex;
-  // flex-direction: column;
 
   h1 {
     display: block;
@@ -82,6 +80,10 @@ body {
     font-weight: 800;
     font-size: 95.273px;
     line-height: 117px;
+    @include xm-device {
+      font-size: 76px;
+      line-height: 98px;
+    }
   }
 
   h2 {
@@ -95,10 +97,10 @@ body {
     font-weight: 800;
     font-size: 58.0501px;
     line-height: 71px;
-  }
-
-  .marker:hover {
-    background-color: #b5d7fe;
+    @include xm-device {
+      font-size: 39px;
+      line-height: 52px;
+    }
   }
   p {
     display: block;
@@ -110,6 +112,11 @@ body {
     font-weight: 500;
     font-size: 30.5806px;
     line-height: 52px;
+
+    @include xm-device {
+      font-size: 22px;
+      line-height: 40px;
+    }
   }
   a {
     color: inherit;
@@ -204,27 +211,21 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
     div {
       margin: 15px;
-    }
-    @include xm-device {
-      justify-content: space-around;
-    }
-    @include phone {
-      justify-content: space-around;
     }
   }
   &__card {
     margin-top: 30px;
-    width: 160px;
-    height: 250px;
-    background: #fafafa;
+    width: 140px;
+    height: 140px;
     border: 6.7957px solid $color__dark;
     border-radius: 34.828px;
   }
 }
 
-/* Style all font awesome icons */
 .fa {
   display: inline-table;
   padding: 15px;
@@ -236,6 +237,15 @@ body {
 
 .fa:hover {
   opacity: 0.8;
+}
+
+.marker {
+  background-color: #c4dffd;
+}
+.marker:hover {
+  background-color: tomato;
+  background-color: $color__dark;
+  color: white;
 }
 
 .slow_shake_it:hover {
@@ -381,8 +391,6 @@ body {
   transform-origin: bottom;
   width: 50px;
   margin: 15px;
-  // @include xm-device {
-  // }
 }
 .jump:hover {
   animation-name: jump;

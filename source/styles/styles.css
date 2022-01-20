@@ -38,6 +38,13 @@ body h1 {
   line-height: 117px;
 }
 
+@media (max-width: 599px) {
+  body h1 {
+    font-size: 76px;
+    line-height: 98px;
+  }
+}
+
 body h2 {
   display: block;
   font-size: 1.5em;
@@ -55,8 +62,11 @@ body h2 {
   line-height: 71px;
 }
 
-body .marker:hover {
-  background-color: #b5d7fe;
+@media (max-width: 599px) {
+  body h2 {
+    font-size: 39px;
+    line-height: 52px;
+  }
 }
 
 body p {
@@ -73,6 +83,13 @@ body p {
   font-weight: 500;
   font-size: 30.5806px;
   line-height: 52px;
+}
+
+@media (max-width: 599px) {
+  body p {
+    font-size: 22px;
+    line-height: 40px;
+  }
 }
 
 body a {
@@ -210,36 +227,23 @@ body .grid {
           justify-content: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 15px;
 }
 
 .marvel__flex div {
   margin: 15px;
 }
 
-@media (max-width: 599px) {
-  .marvel__flex {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 767px) {
-  .marvel__flex {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
 .marvel__card {
   margin-top: 30px;
-  width: 160px;
-  height: 250px;
-  background: #fafafa;
+  width: 140px;
+  height: 140px;
   border: 6.7957px solid rgba(39, 39, 39, 0.993);
   border-radius: 34.828px;
 }
 
-/* Style all font awesome icons */
 .fa {
   display: inline-table;
   padding: 15px;
@@ -251,6 +255,16 @@ body .grid {
 
 .fa:hover {
   opacity: 0.8;
+}
+
+.marker {
+  background-color: #c4dffd;
+}
+
+.marker:hover {
+  background-color: tomato;
+  background-color: rgba(39, 39, 39, 0.993);
+  color: white;
 }
 
 .slow_shake_it:hover {
