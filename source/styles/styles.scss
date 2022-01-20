@@ -219,8 +219,10 @@ body {
   }
   &__card {
     margin-top: 30px;
-    width: 180px;
-    // height: 140px;
+    height: 180px;
+    @include xm-device{
+      height: 120px;
+    }
   }
 }
 
