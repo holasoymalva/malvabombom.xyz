@@ -238,10 +238,7 @@ body .grid {
 
 .marvel__card {
   margin-top: 30px;
-  width: 140px;
-  height: 140px;
-  border: 6.7957px solid rgba(39, 39, 39, 0.993);
-  border-radius: 34.828px;
+  width: 180px;
 }
 
 .fa {
