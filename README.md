@@ -10,11 +10,11 @@
 - Pug
 ### Project build in 4 fases:
 
-- [ ] Build the core styles
-  - [ ] SCSS GRID
-  - [ ] SCSS FLEX
-  - [ ] Base Styles
-  - [ ] Responsive
+- [x] Build the core styles
+  - [x] SCSS GRID
+  - [x] SCSS FLEX
+  - [x] Base Styles
+  - [x] Responsive
 - [ ] Build the core components with react
   - [ ] Cards
   - [ ] Projects
