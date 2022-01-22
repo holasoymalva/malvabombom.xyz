@@ -26,6 +26,8 @@
   - [ ] Data Update
   - [ ] Update Page Functionality
 - [ ] Rebuild and Bug correction
+  - [ ] Project Section Animations
+  - [ ] Project section Information
 
 ### Referencias
 
