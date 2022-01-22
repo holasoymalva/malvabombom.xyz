@@ -30,3 +30,4 @@
 ### Referencias
 
 https://freefrontend.com/css-cards/
+https://freefrontend.com/css-card-hover-effects/
