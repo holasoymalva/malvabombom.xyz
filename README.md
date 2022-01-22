@@ -26,3 +26,7 @@
   - [ ] Data Update
   - [ ] Update Page Functionality
 - [ ] Rebuild and Bug correction
+
+### Referencias
+
+https://freefrontend.com/css-cards/
