@@ -8,6 +8,7 @@ $color__roca: #fff3f8;
 $color__pistache: #d6fcf7;
 $color__salmon: #ff9692;
 $color__ultramar: #1947e6;
+$color__uva: #a259fe;
 $color__dark: rgba(39, 39, 39, 0.993);
 $breakpoint-tablet: 768px;
 $desktop-width: 1024px;
@@ -49,7 +50,7 @@ $desktop-width: 1024px;
   }
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -135,7 +136,6 @@ body {
       rgba(255, 255, 255, 0) 100%
     );
     height: 100px;
-    color: tomato;
   }
   footer {
     flex-shrink: 0;
@@ -223,7 +223,7 @@ body {
   &__card {
     margin-top: 30px;
     height: 180px;
-    @include xm-device{
+    @include xm-device {
       height: 120px;
     }
   }
@@ -243,12 +243,15 @@ body {
 }
 
 .marker {
-  background-color: #c4dffd;
-}
-.marker:hover {
-  background-color: tomato;
   background-color: $color__dark;
   color: white;
+}
+.marker:hover {
+  background-color: $color__uva;
+}
+
+.uva_font {
+  color: $color__uva;
 }
 
 .slow_shake_it:hover {

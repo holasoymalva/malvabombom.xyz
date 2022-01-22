@@ -105,7 +105,6 @@ body header {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(53.17%, #ffffff), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #ffffff 53.17%, rgba(255, 255, 255, 0) 100%);
   height: 100px;
-  color: tomato;
 }
 
 @media (min-width: 1024px) {
@@ -267,13 +266,16 @@ body .grid {
 }
 
 .marker {
-  background-color: #c4dffd;
+  background-color: rgba(39, 39, 39, 0.993);
+  color: white;
 }
 
 .marker:hover {
-  background-color: tomato;
-  background-color: rgba(39, 39, 39, 0.993);
-  color: white;
+  background-color: #a259fe;
+}
+
+.uva_font {
+  color: #a259fe;
 }
 
 .slow_shake_it:hover {
