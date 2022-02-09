@@ -45,6 +45,13 @@ body h1 {
   }
 }
 
+@media (max-width: 599px) {
+  body h1 {
+    font-size: 76px;
+    line-height: 98px;
+  }
+}
+
 body h2 {
   display: block;
   font-size: 1.5em;
@@ -223,6 +230,11 @@ body .grid {
           justify-content: center;
 }
 
+.marvel__project__card {
+  position: relative;
+  border: 6px solid #a259fe;
+}
+
 .marvel__flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,6 +293,13 @@ body .grid {
 .slow_shake_it:hover {
   -webkit-animation: shake 4.5s;
           animation: shake 4.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.medium_shake_it:hover {
+  -webkit-animation: shake 2.5s;
+          animation: shake 2.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }

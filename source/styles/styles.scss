@@ -81,6 +81,14 @@ body {
     font-weight: 800;
     font-size: 95.273px;
     line-height: 117px;
+    @include xm-tablet {
+      font-size: 76px;
+      line-height: 98px;
+    }
+    @include xm-phone {
+      font-size: 76px;
+      line-height: 98px;
+    }
     @include xm-device {
       font-size: 76px;
       line-height: 98px;
@@ -209,6 +217,10 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    &__card{
+      position: relative;
+      border: 6px solid $color__uva;
+    }
   }
   &__flex {
     display: flex;
@@ -256,6 +268,11 @@ body {
 
 .slow_shake_it:hover {
   animation: shake 4.5s;
+  animation-iteration-count: infinite;
+}
+
+.medium_shake_it:hover {
+  animation: shake 2.5s;
   animation-iteration-count: infinite;
 }
 
