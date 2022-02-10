@@ -297,7 +297,7 @@ body .grid {
 }
 
 .fa:hover {
-  opacity: 0.8;
+  background-color: #a259fe;
 }
 
 .marker {
