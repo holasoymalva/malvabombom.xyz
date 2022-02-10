@@ -11,7 +11,6 @@ $color__ultramar: #1947e6;
 $color__uva: #a259fe;
 $color__dark: rgba(39, 39, 39, 0.993);
 $breakpoint-tablet: 768px;
-$desktop-width: 1024px;
 
 $breakpoints: (
   phone: 640px,
@@ -23,6 +22,7 @@ $phone-width: 600px;
 $tablet-width: 768px;
 $laptop-width: 992px;
 $desktop-width: 1024px;
+$imac-width: 1620px;
 
 @mixin xm-device {
   @media (max-width: #{$phone-width - 1px}) {
@@ -45,7 +45,12 @@ $desktop-width: 1024px;
   }
 }
 @mixin desktop {
-  @media (min-width: #{$desktop-width}) {
+  @media (min-width: #{$desktop-width}) and (max-width: #{$imac-width - 1px}) {
+    @content;
+  }
+}
+@mixin imac {
+  @media (min-width: #{$imac-width}) {
     @content;
   }
 }
@@ -184,6 +189,9 @@ body {
     @include desktop {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    @include imac {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 }
 .marvel {
@@ -192,8 +200,12 @@ body {
   padding-right: 30px;
   margin-bottom: 80px;
   @include desktop {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  @include imac {
+    padding-left: 300px;
+    padding-right: 300px;
   }
   &__intro{
     text-align: center;
@@ -236,7 +248,7 @@ body {
   }
   &__card {
     margin-top: 30px;
-    height: 180px;
+    height: 150px;
     @include xm-device {
       height: 120px;
     }
