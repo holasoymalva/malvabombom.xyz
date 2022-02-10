@@ -23,7 +23,6 @@ body {
 
 body h1 {
   display: block;
-  font-size: 2em;
   -webkit-margin-before: 0.67em;
           margin-block-start: 0.67em;
   -webkit-margin-after: 0.67em;
@@ -34,20 +33,12 @@ body h1 {
           margin-inline-end: 0px;
   font-style: normal;
   font-weight: 800;
-  font-size: 95.273px;
+  font-size: 75.273px;
   line-height: 117px;
 }
 
 @media (max-width: 599px) {
   body h1 {
-    font-size: 76px;
-    line-height: 98px;
-  }
-}
-
-@media (max-width: 599px) {
-  body h1 {
-    font-size: 76px;
     line-height: 98px;
   }
 }
@@ -88,8 +79,22 @@ body p {
           margin-inline-end: 0px;
   font-style: normal;
   font-weight: 500;
-  font-size: 30.5806px;
+  font-size: 25px;
   line-height: 52px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body p {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  body p {
+    font-size: 22px;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -200,6 +205,10 @@ body .grid {
   }
 }
 
+.marvel__intro {
+  text-align: center;
+}
+
 .marvel__border {
   /* Colors / Black */
   border: 2px solid rgba(39, 39, 39, 0.993);
@@ -267,7 +276,7 @@ body .grid {
 .fa {
   display: inline-table;
   padding: 15px;
-  font-size: 30px;
+  font-size: 28px;
   border-radius: 25%;
   background: rgba(39, 39, 39, 0.993);
   color: white;
@@ -585,6 +594,14 @@ body .grid {
 .stage {
   margin-top: 45px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 @media (max-width: 599px) {
