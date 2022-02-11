@@ -51,4 +51,7 @@ Brindandome herramientas, el soporte y materiales que podrian ayudarme a crear s
 
 ## Ideas for the UI Side
 
-https://youtu.be/NGiQCBsVayI
+* https://youtu.be/NGiQCBsVayI
+
+* https://luu.dev/
+
