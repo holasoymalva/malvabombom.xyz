@@ -48,3 +48,7 @@ Esp: Creo que este tipo de programas estudianteles tienen un gran proposito dent
 Giving me tools, support and materials that could help me create incredible solutions to improve people's lives, not just my local community, I think that the most important thing in these types of programs is the incredible people we meet and everything that you can learn from them. Being honest, that is the most important thing that I think the personal development program could give me and share experiences with incredible people. :)
 
 Brindandome herramientas, el soporte y materiales que podrian ayudarme a crear soluciones increibles para mejorar la vida de las personas, no solo de mi comunidad local, pienso que lo mas importante en este tipo de programas son las increibles personas que conocemos y todo aquello lo que se puede aprender de ellas. Siendo sicero eso es lo mas importante que creo que me podria brindar el programa desarrollo personal y compartir experiencias con personas increibles. :)
+
+## Ideas for the UI Side
+
+https://youtu.be/NGiQCBsVayI
