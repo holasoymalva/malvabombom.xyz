@@ -51,44 +51,44 @@ Brindandome herramientas, el soporte y materiales que podrian ayudarme a crear s
 
 ## Ideas for the UI Side
 
-* https://youtu.be/NGiQCBsVayI
-* https://luu.dev/
-* https://youtu.be/YkMVNdBZbc0
-* https://youtu.be/7r9ehBo5HA0
-* https://youtu.be/aoUY_hneMkU
-* https://youtu.be/7sKu6gfquo8
-* https://youtu.be/ubZLc1_nx0A
-* https://youtu.be/KJ0TFywHdvM
-* https://youtu.be/ccQJZcTaRyE
-* https://youtu.be/LoAYqu7GwbM
-* https://youtu.be/4KarOtBnT94
-* https://youtu.be/JJk0I_jWSc4
-* https://youtu.be/_sUSGtf8CxA
-* https://youtu.be/w-PoV_sIWos
-* https://youtu.be/NviDtoGOQ2A
-* https://youtu.be/Cvby3_Iewvk
-* https://youtu.be/Cvby3_Iewvk
-* https://youtu.be/zlqTm79di1E
-* https://youtu.be/bQ2teFYlIF0
-* https://youtu.be/zD_IRj2s1HA
-* https://youtu.be/1N2TClkX5rU
-* https://youtu.be/xrhNIU-BLZw
-* https://youtu.be/KZ-eAiBW6gA
-* https://youtu.be/-ehWcnhDZbU
-* https://youtu.be/Z7UpV6TnyOg
-* https://youtu.be/XzjxqS0xAu0
-* https://youtu.be/mihfKI9OFk4
-* https://youtu.be/Uk_CMjetw7g
-* https://youtu.be/ePiz3jtLk-k
-* https://youtu.be/mWnfc0Lm_F4
-* https://youtu.be/Gh0Faa9hT7M
-* https://youtu.be/-DVLq7Rl6mU
-* https://youtu.be/MfqiJ94sWtQ
-* https://youtu.be/nXqMaQKfyfM
-* https://youtu.be/4DLjvDbz8Uo
-* https://youtu.be/YM0dm83Bw6A
-* https://youtu.be/2R3VCGHk4G4
-* https://youtu.be/7sKu6gfquo8
-* https://youtu.be/juZzouAA5w8
-* https://youtu.be/4aMLu1pRa-g
-* https://youtu.be/pAUTWKtp6Po
+* [ ] [See tutorial](https://youtu.be/NGiQCBsVayI)
+* [ ] [See tutorial](https://luu.dev/)
+* [ ] [See tutorial](https://youtu.be/YkMVNdBZbc0)
+* [ ] [See tutorial](https://youtu.be/7r9ehBo5HA0)
+* [ ] [See tutorial](https://youtu.be/aoUY_hneMkU)
+* [ ] [See tutorial](https://youtu.be/7sKu6gfquo8)
+* [ ] [See tutorial](https://youtu.be/ubZLc1_nx0A)
+* [ ] [See tutorial](https://youtu.be/KJ0TFywHdvM)
+* [ ] [See tutorial](https://youtu.be/ccQJZcTaRyE)
+* [ ] [See tutorial](https://youtu.be/LoAYqu7GwbM)
+* [ ] [See tutorial](https://youtu.be/4KarOtBnT94)
+* [ ] [See tutorial](https://youtu.be/JJk0I_jWSc4)
+* [ ] [See tutorial](https://youtu.be/_sUSGtf8CxA)
+* [ ] [See tutorial](https://youtu.be/w-PoV_sIWos)
+* [ ] [See tutorial](https://youtu.be/NviDtoGOQ2A)
+* [ ] [See tutorial](https://youtu.be/Cvby3_Iewvk)
+* [ ] [See tutorial](https://youtu.be/Cvby3_Iewvk)
+* [ ] [See tutorial](https://youtu.be/zlqTm79di1E)
+* [ ] [See tutorial](https://youtu.be/bQ2teFYlIF0)
+* [ ] [See tutorial](https://youtu.be/zD_IRj2s1HA)
+* [ ] [See tutorial](https://youtu.be/1N2TClkX5rU)
+* [ ] [See tutorial](https://youtu.be/xrhNIU-BLZw)
+* [ ] [See tutorial](https://youtu.be/KZ-eAiBW6gA)
+* [ ] [See tutorial](https://youtu.be/-ehWcnhDZbU)
+* [ ] [See tutorial](https://youtu.be/Z7UpV6TnyOg)
+* [ ] [See tutorial](https://youtu.be/XzjxqS0xAu0)
+* [ ] [See tutorial](https://youtu.be/mihfKI9OFk4)
+* [ ] [See tutorial](https://youtu.be/Uk_CMjetw7g)
+* [ ] [See tutorial](https://youtu.be/ePiz3jtLk-k)
+* [ ] [See tutorial](https://youtu.be/mWnfc0Lm_F4)
+* [ ] [See tutorial](https://youtu.be/Gh0Faa9hT7M)
+* [ ] [See tutorial](https://youtu.be/-DVLq7Rl6mU)
+* [ ] [See tutorial](https://youtu.be/MfqiJ94sWtQ)
+* [ ] [See tutorial](https://youtu.be/nXqMaQKfyfM)
+* [ ] [See tutorial](https://youtu.be/4DLjvDbz8Uo)
+* [ ] [See tutorial](https://youtu.be/YM0dm83Bw6A)
+* [ ] [See tutorial](https://youtu.be/2R3VCGHk4G4)
+* [ ] [See tutorial](https://youtu.be/7sKu6gfquo8)
+* [ ] [See tutorial](https://youtu.be/juZzouAA5w8)
+* [ ] [See tutorial](https://youtu.be/4aMLu1pRa-g)
+* [ ] [See tutorial](https://youtu.be/pAUTWKtp6Po)
