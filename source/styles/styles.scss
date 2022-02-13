@@ -87,6 +87,7 @@ body {
     line-height: 117px;
 
     @include xm-device {
+      font-size: 55px;
       line-height: 98px;
     }
   }
@@ -104,6 +105,22 @@ body {
     line-height: 71px;
     @include xm-device {
       font-size: 39px;
+      line-height: 52px;
+    }
+  }
+  h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48.0501px;
+    line-height: 71px;
+    @include xm-device {
+      font-size: 29px;
       line-height: 52px;
     }
   }
@@ -255,6 +272,38 @@ body {
   }
 }
 
+.t{
+  &__center{
+    text-align: center;
+  }
+  &__start{
+    text-align: start;
+  }
+  &__end{
+    text-align: end;
+  }
+  &__bold{
+    font-weight: 800;
+  }
+  &__regular{
+    font-weight: 500;
+  }
+  &__uva{
+    color: $color__uva;
+  }
+  &__rainbow:hover{
+      animation: rainbow 2.5s linear;
+      animation-iteration-count: infinite;
+  }
+  &__marker {
+    background-color: $color__dark;
+    color: white;
+  }
+  &__marker:hover {
+    background-color: $color__uva;
+  }
+}
+
 .fa {
   display: inline-table;
   padding: 15px;
@@ -268,17 +317,7 @@ body {
   background-color: $color__uva;
 }
 
-.marker {
-  background-color: $color__dark;
-  color: white;
-}
-.marker:hover {
-  background-color: $color__uva;
-}
 
-.uva_font {
-  color: $color__uva;
-}
 
 .slow_shake_it:hover {
   animation: shake 4.5s;
@@ -365,10 +404,7 @@ body {
   }
 }
 
-.rainbow:hover {
-  animation: rainbow 2.5s linear;
-  animation-iteration-count: infinite;
-}
+
 
 @keyframes rainbow {
   100%,
