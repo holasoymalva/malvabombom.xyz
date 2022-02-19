@@ -10,6 +10,7 @@ $color__salmon: #ff9692;
 $color__ultramar: #1947e6;
 $color__uva: #a259fe;
 $color__dark: rgba(39, 39, 39, 0.993);
+$color__gray: #5e636e;
 $breakpoint-tablet: 768px;
 
 $breakpoints: (
@@ -132,19 +133,20 @@ body {
     margin-inline-end: 0px;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 52px;
+    color: $color__gray;
 
     @include tablet {
-      font-size: 22px;
+      font-size: 21px;
       line-height: 40px;
     }
     @include phone {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 40px;
     }
     @include xm-device {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 40px;
     }
   }

@@ -104,27 +104,28 @@ body p {
           margin-inline-end: 0px;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 52px;
+  color: #5e636e;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   body p {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 40px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
   body p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
   }
 }
 
 @media (max-width: 599px) {
   body p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
   }
 }
