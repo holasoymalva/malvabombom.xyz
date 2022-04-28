@@ -264,6 +264,23 @@ body .grid {
   margin-top: 40px;
 }
 
+.marvel__course {
+  display: -ms-grid;
+  display: grid;
+  background: #fafafa;
+  border-radius: 18px;
+  width: 100%;
+  min-height: 90px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
 .marvel__project {
   margin-top: 30px;
   width: 100%;

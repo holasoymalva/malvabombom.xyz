@@ -240,6 +240,17 @@ body {
   &__section {
     margin-top: 40px;
   }
+  &__course {
+    display: grid;
+    background: #fafafa;
+    border-radius: 18px;
+    width: 100%;
+    min-height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
   &__project {
     margin-top: 30px;
     width: 100%;
