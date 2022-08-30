@@ -59,7 +59,7 @@ Thank you for reading. <3
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
 [as]: https://malvabombom.xyz/
-[ny-link]: https://malvabombom.xyz/ 
+[ny-link]: https://gleaming-basbousa-b25172.netlify.app/ 
 [sass]: https://sass-lang.com
 [imgl]: https://imagesloaded.desandro.com
 [in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
