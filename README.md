@@ -2,11 +2,18 @@
 
 ### Core Technologies:
 
-- React 
-- GraphQl
-- Jest
-- Sass
-- Pug
+[**Live site here**][as] [![ny]][ny-link]
+
+## Builded with
+
+- ![html5]
+- ![css3]
+    - [SASS][sass]
+- ![js]
+
+### Another tools used
+
+![vsc] ![git] ![ps] ![ai] ![fg]
 
 ### Project build in 4 fases:
 
@@ -53,11 +60,9 @@ Thank you for reading. <3
 [fb]: https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
-[as]: https://asgardesculturas.netlify.app
-[ny-link]: https://app.netlify.com/sites/asgardesculturas/deploys 
+[as]: https://malvabombom.xyz/
+[ny-link]: https://malvabombom.xyz/ 
 [sass]: https://sass-lang.com
-[btsp]: https://getbootstrap.com
-[msry]: https://masonry.desandro.com
 [imgl]: https://imagesloaded.desandro.com
 [in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
 [ig-link]: https://www.instagram.com/malvabombom/
