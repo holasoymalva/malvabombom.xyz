@@ -36,7 +36,7 @@
 
 ## Author
 
-Created by Leon Martin( [malvabombom](https://github.com/malvabombom) ).
+Created by Leon Martin ([Malvabombom](https://github.com/malvabombom)).
 
 [![in]][in-link] [![ig]][ig-link] [![tt]][tt-link]
 
