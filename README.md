@@ -6,8 +6,8 @@
 - GraphQl
 - Jest
 - Sass
-- Tailwind Css (*No reasons for use it*)
 - Pug
+
 ### Project build in 4 fases:
 
 - [x] Build the core styles
