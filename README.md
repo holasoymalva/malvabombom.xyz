@@ -1,6 +1,4 @@
-# [malvabombom.xyz](https://malvabombom.xyz/)
-
-### Core Technologies:
+# malvabombom.xyz
 
 [**Live site here**][as] [![ny]][ny-link]
 
