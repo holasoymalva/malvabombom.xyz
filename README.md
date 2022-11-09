@@ -20,6 +20,10 @@
   - [x] SCSS FLEX
   - [x] Base Styles
   - [x] Responsive
+  - [ ] Add Experiences Section
+  - [ ] Projects Section refactoring
+
+  
 - [ ] Build the core components with react
   - [ ] Cards
   - [ ] Projects
