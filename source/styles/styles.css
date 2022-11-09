@@ -273,15 +273,23 @@ body .grid {
   display: block;
   font-size: 29px;
 }
+@media (max-width: 599px) {
+  .marvel__column__job {
+    font-size: 22px;
+  }
+}
 .marvel__column__logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   transform: translate(-63px, -83px);
   border: 3px solid #a259fe;
+  background-color: #f6f6f6;
 }
-.marvel__column p {
-  margin-top: -15px;
+.marvel__column__description {
+  font-size: 18px;
+  margin-top: -60px;
+  line-height: 2rem;
 }
 .marvel__column__now {
   -webkit-animation: rainbow 2.5s linear;
@@ -290,6 +298,7 @@ body .grid {
           animation-iteration-count: infinite;
   font-style: normal;
   font-weight: 500;
+  font-size: 20px;
 }
 .marvel__column div {
   border-left: 3px solid #a259fe;
@@ -303,6 +312,10 @@ body .grid {
   .marvel__card {
     height: 120px;
   }
+}
+
+.mrg-20 {
+  margin-top: -20px;
 }
 
 .t__center {
