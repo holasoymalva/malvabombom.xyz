@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&display=swap");
 
 $color__crema: #fff4cc;
-$color__blanco: #ffffff;
+$color__blanco: #f6f6f6;
 $color__amarillo: #ffbd12;
 $color__naranja: #f95a2c;
 $color__roca: #fff3f8;
@@ -95,7 +95,6 @@ body {
 
   h2 {
     display: block;
-    font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -111,7 +110,6 @@ body {
   }
   h3 {
     display: block;
-    font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -276,6 +274,43 @@ body {
       margin: 15px;
     }
   }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-left: 15px;
+    ul{
+      list-style: none;
+    }
+    &__job{
+      display: block;
+      font-size: 29px;
+    }
+    &__logo{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transform: translate(-63px, -83px);
+      border: 3px solid $color__uva;
+    }
+    p{
+      margin-top:-15px;
+    }
+    &__now{
+      animation: rainbow 2.5s linear;
+      animation-iteration-count: infinite;
+      font-style: normal;
+      font-weight: 500;
+      
+    }
+    div {
+      border-left: 3px solid $color__uva;
+      padding-left: 35px;
+    }
+  }
   &__card {
     margin-top: 30px;
     height: 150px;
@@ -310,7 +345,7 @@ body {
   }
   &__marker {
     background-color: $color__dark;
-    color: white;
+    color: $color__blanco;
   }
   &__marker:hover {
     background-color: $color__uva;
@@ -323,7 +358,7 @@ body {
   font-size: 28px;
   border-radius: 25%;
   background: $color__dark;
-  color: white;
+  color: $color__blanco;
 }
 
 .fa:hover {

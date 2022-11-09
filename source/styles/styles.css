@@ -7,8 +7,7 @@
 *,
 ::after,
 ::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-width: 0;
   border-style: solid;
   border-color: #e2e8f0;
@@ -20,7 +19,6 @@ body {
   color: rgba(39, 39, 39, 0.993);
   font-family: "Montserrat", sans-serif;
 }
-
 body h1 {
   display: block;
   -webkit-margin-before: 0.67em;
@@ -36,17 +34,14 @@ body h1 {
   font-size: 75.273px;
   line-height: 117px;
 }
-
 @media (max-width: 599px) {
   body h1 {
     font-size: 55px;
     line-height: 98px;
   }
 }
-
 body h2 {
   display: block;
-  font-size: 1.5em;
   -webkit-margin-before: 0.83em;
           margin-block-start: 0.83em;
   -webkit-margin-after: 0.83em;
@@ -60,17 +55,14 @@ body h2 {
   font-size: 58.0501px;
   line-height: 71px;
 }
-
 @media (max-width: 599px) {
   body h2 {
     font-size: 39px;
     line-height: 52px;
   }
 }
-
 body h3 {
   display: block;
-  font-size: 1.5em;
   -webkit-margin-before: 0.83em;
           margin-block-start: 0.83em;
   -webkit-margin-after: 0.83em;
@@ -84,14 +76,12 @@ body h3 {
   font-size: 48.0501px;
   line-height: 71px;
 }
-
 @media (max-width: 599px) {
   body h3 {
     font-size: 29px;
     line-height: 52px;
   }
 }
-
 body p {
   display: block;
   -webkit-margin-before: 1em;
@@ -108,57 +98,47 @@ body p {
   line-height: 52px;
   color: #5e636e;
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   body p {
     font-size: 21px;
     line-height: 40px;
   }
 }
-
 @media (min-width: 600px) and (max-width: 767px) {
   body p {
     font-size: 20px;
     line-height: 40px;
   }
 }
-
 @media (max-width: 599px) {
   body p {
     font-size: 20px;
     line-height: 40px;
   }
 }
-
 body a {
   color: inherit;
   text-decoration: inherit;
 }
-
 body header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 10px 30px 12px 30px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(53.17%, #ffffff), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, #ffffff 53.17%, rgba(255, 255, 255, 0) 100%);
   height: 100px;
 }
-
 @media (min-width: 1024px) and (max-width: 1619px) {
   body header {
     padding: 10px 120px 12px 120px;
   }
 }
-
 body footer {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   text-align: center;
   height: 45px;
   width: 100%;
 }
-
 body blockquote,
 body dd,
 body dl,
@@ -174,53 +154,39 @@ body p,
 body pre {
   margin: 0;
 }
-
 body .grid {
-  display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
   gap: 1rem;
 }
-
 @media (max-width: 599px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[1];
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 600px) and (max-width: 767px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[1];
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[1];
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 992px) and (max-width: 1023px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1619px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 1620px) {
   body .grid {
-    -ms-grid-columns: (minmax(0, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -230,57 +196,43 @@ body .grid {
   padding-right: 30px;
   margin-bottom: 80px;
 }
-
 @media (min-width: 1024px) and (max-width: 1619px) {
   .marvel {
     padding-left: 180px;
     padding-right: 180px;
   }
 }
-
 @media (min-width: 1620px) {
   .marvel {
     padding-left: 300px;
     padding-right: 300px;
   }
 }
-
 .marvel__intro {
   text-align: center;
 }
-
 .marvel__border {
   /* Colors / Black */
   border: 2px solid rgba(39, 39, 39, 0.993);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* Shadow / 400 */
-  -webkit-box-shadow: 0px 4px 0px rgba(39, 39, 39, 0.993);
-          box-shadow: 0px 4px 0px rgba(39, 39, 39, 0.993);
+  box-shadow: 0px 4px 0px rgba(39, 39, 39, 0.993);
   border-radius: 16px;
 }
-
 .marvel__section {
   margin-top: 40px;
 }
-
 .marvel__course {
-  display: -ms-grid;
   display: grid;
   background: #fafafa;
   border-radius: 18px;
   width: 100%;
   min-height: 90px;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
-
 .marvel__project {
   margin-top: 30px;
   width: 100%;
@@ -288,42 +240,65 @@ body .grid {
   background: #fafafa;
   border-radius: 53px;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .marvel__project__card {
   position: relative;
   border: 6px solid #a259fe;
 }
-
 .marvel__flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 15px;
 }
-
 .marvel__flex div {
   margin: 15px;
 }
-
+.marvel__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.marvel__column ul {
+  list-style: none;
+}
+.marvel__column__job {
+  display: block;
+  font-size: 29px;
+}
+.marvel__column__logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translate(-63px, -83px);
+  border: 3px solid #a259fe;
+}
+.marvel__column p {
+  margin-top: -15px;
+}
+.marvel__column__now {
+  -webkit-animation: rainbow 2.5s linear;
+          animation: rainbow 2.5s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  font-style: normal;
+  font-weight: 500;
+}
+.marvel__column div {
+  border-left: 3px solid #a259fe;
+  padding-left: 35px;
+}
 .marvel__card {
   margin-top: 30px;
   height: 150px;
 }
-
 @media (max-width: 599px) {
   .marvel__card {
     height: 120px;
@@ -333,39 +308,31 @@ body .grid {
 .t__center {
   text-align: center;
 }
-
 .t__start {
   text-align: start;
 }
-
 .t__end {
   text-align: end;
 }
-
 .t__bold {
   font-weight: 800;
 }
-
 .t__regular {
   font-weight: 500;
 }
-
 .t__uva {
   color: #a259fe;
 }
-
 .t__rainbow:hover {
   -webkit-animation: rainbow 2.5s linear;
           animation: rainbow 2.5s linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 .t__marker {
   background-color: rgba(39, 39, 39, 0.993);
-  color: white;
+  color: #f6f6f6;
 }
-
 .t__marker:hover {
   background-color: #a259fe;
 }
@@ -376,7 +343,7 @@ body .grid {
   font-size: 28px;
   border-radius: 25%;
   background: rgba(39, 39, 39, 0.993);
-  color: white;
+  color: #f6f6f6;
 }
 
 .fa:hover {
@@ -406,290 +373,227 @@ body .grid {
 
 @-webkit-keyframes shake {
   0% {
-    -webkit-transform: translate(1px, 1px) rotate(0deg);
-            transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
-    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-            transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
-    -webkit-transform: translate(-3px, 0px) rotate(1deg);
-            transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
-    -webkit-transform: translate(3px, 2px) rotate(0deg);
-            transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
-    -webkit-transform: translate(1px, -1px) rotate(1deg);
-            transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
-    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-            transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
-    -webkit-transform: translate(-3px, 1px) rotate(0deg);
-            transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
-    -webkit-transform: translate(3px, 1px) rotate(-1deg);
-            transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
-    -webkit-transform: translate(-1px, -1px) rotate(1deg);
-            transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
-    -webkit-transform: translate(1px, 2px) rotate(0deg);
-            transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
-    -webkit-transform: translate(1px, -2px) rotate(-1deg);
-            transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 
 @keyframes shake {
   0% {
-    -webkit-transform: translate(1px, 1px) rotate(0deg);
-            transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
-    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-            transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
-    -webkit-transform: translate(-3px, 0px) rotate(1deg);
-            transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
-    -webkit-transform: translate(3px, 2px) rotate(0deg);
-            transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
-    -webkit-transform: translate(1px, -1px) rotate(1deg);
-            transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
-    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-            transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
-    -webkit-transform: translate(-3px, 1px) rotate(0deg);
-            transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
-    -webkit-transform: translate(3px, 1px) rotate(-1deg);
-            transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
-    -webkit-transform: translate(-1px, -1px) rotate(1deg);
-            transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
-    -webkit-transform: translate(1px, 2px) rotate(0deg);
-            transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
-    -webkit-transform: translate(1px, -2px) rotate(-1deg);
-            transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-
 .wave {
   -webkit-animation-name: wave-animation;
-          animation-name: wave-animation;
-  /* Refers to the name of your @keyframes element below */
+          animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  /* Change to speed up or slow down */
+          animation-duration: 2.5s; /* Change to speed up or slow down */
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  /* Never stop waving :) */
-  -webkit-transform-origin: 70% 70%;
-          transform-origin: 70% 70%;
-  /* Pivot around the bottom-left palm */
+          animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @-webkit-keyframes wave-animation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   10% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
-  }
-  /* The following five values can be played with to make the waving more or less extreme */
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    -webkit-transform: rotate(-8deg);
-            transform: rotate(-8deg);
+    transform: rotate(-8deg);
   }
   30% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   40% {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
+    transform: rotate(-4deg);
   }
   50% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
   60% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  /* Reset for the last half to pause */
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
 @keyframes wave-animation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   10% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
-  }
-  /* The following five values can be played with to make the waving more or less extreme */
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
   20% {
-    -webkit-transform: rotate(-8deg);
-            transform: rotate(-8deg);
+    transform: rotate(-8deg);
   }
   30% {
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    transform: rotate(14deg);
   }
   40% {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
+    transform: rotate(-4deg);
   }
   50% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
   60% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  /* Reset for the last half to pause */
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
-
 @-webkit-keyframes rainbow {
-  100%,
-  0% {
-    color: red;
+  100%, 0% {
+    color: rgb(255, 0, 0);
   }
   8% {
-    color: #ff7f00;
+    color: rgb(255, 127, 0);
   }
   16% {
-    color: yellow;
+    color: rgb(255, 255, 0);
   }
   25% {
-    color: chartreuse;
+    color: rgb(127, 255, 0);
   }
   33% {
-    color: lime;
+    color: rgb(0, 255, 0);
   }
   41% {
-    color: springgreen;
+    color: rgb(0, 255, 127);
   }
   50% {
-    color: cyan;
+    color: rgb(0, 255, 255);
   }
   58% {
-    color: #007fff;
+    color: rgb(0, 127, 255);
   }
   66% {
-    color: blue;
+    color: rgb(0, 0, 255);
   }
   75% {
-    color: #7f00ff;
+    color: rgb(127, 0, 255);
   }
   83% {
-    color: magenta;
+    color: rgb(255, 0, 255);
   }
   91% {
-    color: #ff007f;
+    color: rgb(255, 0, 127);
   }
 }
-
 @keyframes rainbow {
-  100%,
-  0% {
-    color: red;
+  100%, 0% {
+    color: rgb(255, 0, 0);
   }
   8% {
-    color: #ff7f00;
+    color: rgb(255, 127, 0);
   }
   16% {
-    color: yellow;
+    color: rgb(255, 255, 0);
   }
   25% {
-    color: chartreuse;
+    color: rgb(127, 255, 0);
   }
   33% {
-    color: lime;
+    color: rgb(0, 255, 0);
   }
   41% {
-    color: springgreen;
+    color: rgb(0, 255, 127);
   }
   50% {
-    color: cyan;
+    color: rgb(0, 255, 255);
   }
   58% {
-    color: #007fff;
+    color: rgb(0, 127, 255);
   }
   66% {
-    color: blue;
+    color: rgb(0, 0, 255);
   }
   75% {
-    color: #7f00ff;
+    color: rgb(127, 0, 255);
   }
   83% {
-    color: magenta;
+    color: rgb(255, 0, 255);
   }
   91% {
-    color: #ff007f;
+    color: rgb(255, 0, 127);
   }
 }
-
 .stage {
   margin-top: 45px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
 @media (max-width: 599px) {
   .stage {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -700,8 +604,7 @@ body .grid {
           animation-iteration-count: infinite;
   height: 50px;
   margin: 0 auto 0 auto;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   width: 50px;
   margin: 15px;
 }
@@ -715,63 +618,48 @@ body .grid {
 
 @-webkit-keyframes jump {
   0% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
   10% {
-    -webkit-transform: scale(1.1, 0.9) translateY(0);
-            transform: scale(1.1, 0.9) translateY(0);
+    transform: scale(1.1, 0.9) translateY(0);
   }
   30% {
-    -webkit-transform: scale(0.9, 1.1) translateY(-40px);
-            transform: scale(0.9, 1.1) translateY(-40px);
+    transform: scale(0.9, 1.1) translateY(-40px);
   }
   50% {
-    -webkit-transform: scale(1.05, 0.95) translateY(0);
-            transform: scale(1.05, 0.95) translateY(0);
+    transform: scale(1.05, 0.95) translateY(0);
   }
   57% {
-    -webkit-transform: scale(1, 1) translateY(-7px);
-            transform: scale(1, 1) translateY(-7px);
+    transform: scale(1, 1) translateY(-7px);
   }
   64% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
   100% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
 }
 
 @keyframes jump {
   0% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
   10% {
-    -webkit-transform: scale(1.1, 0.9) translateY(0);
-            transform: scale(1.1, 0.9) translateY(0);
+    transform: scale(1.1, 0.9) translateY(0);
   }
   30% {
-    -webkit-transform: scale(0.9, 1.1) translateY(-40px);
-            transform: scale(0.9, 1.1) translateY(-40px);
+    transform: scale(0.9, 1.1) translateY(-40px);
   }
   50% {
-    -webkit-transform: scale(1.05, 0.95) translateY(0);
-            transform: scale(1.05, 0.95) translateY(0);
+    transform: scale(1.05, 0.95) translateY(0);
   }
   57% {
-    -webkit-transform: scale(1, 1) translateY(-7px);
-            transform: scale(1, 1) translateY(-7px);
+    transform: scale(1, 1) translateY(-7px);
   }
   64% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
   100% {
-    -webkit-transform: scale(1, 1) translateY(0);
-            transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
