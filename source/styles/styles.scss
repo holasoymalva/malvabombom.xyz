@@ -101,14 +101,18 @@ body {
     position: sticky;
     top: 0;
     padding: 10px 30px 12px 30px;
-    @include desktop {
-      padding: 10px 120px 12px 120px;
-    }
+    
     background: linear-gradient(
       180deg,
       #ffffff 53.17%,
       rgba(255, 255, 255, 0) 100%
     );
+    @include desktop {
+      padding: 10px 120px 12px 120px;
+    }
+    @include imac {
+      padding: 10px 120px 12px 120px;
+    }
     height: 100px;
   }
   footer {
@@ -230,6 +234,7 @@ body {
       list-style: none;
     }
     &__job {
+      padding-top: 10px;
       display: block;
       font-size: 29px;
       @include xm-device {

@@ -133,6 +133,11 @@ body header {
     padding: 10px 120px 12px 120px;
   }
 }
+@media (min-width: 1620px) {
+  body header {
+    padding: 10px 120px 12px 120px;
+  }
+}
 body footer {
   flex-shrink: 0;
   text-align: center;
@@ -270,6 +275,7 @@ body .grid {
   list-style: none;
 }
 .marvel__column__job {
+  padding-top: 10px;
   display: block;
   font-size: 29px;
 }
