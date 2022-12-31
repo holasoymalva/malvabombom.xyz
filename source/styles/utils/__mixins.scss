@@ -20,12 +20,12 @@
     }
   }
   @mixin desktop {
-    @media (min-width: #{$desktop-width}) and (max-width: #{$imac-width - 1px}) {
+    @media (min-width: #{$desktop-width}) {
       @content;
     }
   }
-  @mixin imac {
-    @media (min-width: #{$imac-width}) {
-      @content;
-    }
-  }
+  // @mixin imac {
+  //   @media (min-width: #{$imac-width}) {
+  //     @content;
+  //   }
+  // }

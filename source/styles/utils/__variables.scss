@@ -14,11 +14,12 @@ $breakpoint-tablet: 768px;
 $breakpoints: (
   phone: 640px,
   tablet: 768px,
-  desktop: 1024px,
+  desktop: 1200px,
 ) !default;
 
 $phone-width: 600px;
 $tablet-width: 768px;
 $laptop-width: 992px;
-$desktop-width: 1024px;
+// $desktop-width: 1024px;
+$desktop-width: 1200px;
 $imac-width: 1620px;
