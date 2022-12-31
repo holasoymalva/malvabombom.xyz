@@ -102,7 +102,7 @@ body {
     position: sticky;
     top: 0;
     padding: 10px 30px 12px 30px;
-    
+
     background: linear-gradient(
       180deg,
       #ffffff 53.17%,
@@ -259,7 +259,7 @@ body {
   }
 }
 
-.project{
+.project {
   margin-top: 20px;
   border-radius: 15px;
   overflow: hidden;
@@ -267,27 +267,27 @@ body {
   position: relative;
   text-align: left;
   background: #fff;
-  &__header{
+  &__header {
     position: relative;
     overflow: hidden;
     background: #f6f6f6;
-    img{
+    img {
       width: 100%;
       object-fit: cover;
     }
   }
   &__body {
     padding: 14px 0.75rem 1.75rem;
-    p{
+    p {
       line-height: normal;
     }
   }
-  &__description{
-    font-family: lato,sans-serif,Arial;
+  &__description {
+    font-family: lato, sans-serif, Arial;
     font-size: 18px;
     margin-top: 8px;
   }
-  &__link{
+  &__link {
     position: absolute;
     top: 0;
     right: 0;
