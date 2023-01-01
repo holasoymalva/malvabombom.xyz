@@ -7,7 +7,7 @@ body {
 @media (max-width: 599px) {
   body h1 {
     font-size: 55px;
-    line-height: 98px;
+    line-height: 52px;
   }
 }
 @media (max-width: 599px) {
@@ -31,7 +31,8 @@ body header {
 }
 
 .planet__logo {
-  width: 327px;
+  width: 127px;
+  margin-right: 20px;
 }
 @media (max-width: 599px) {
   .planet__logo {
@@ -58,6 +59,11 @@ body header {
   .planet__2 {
     right: 336px;
   }
+}
+
+.container__1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .wrap {

@@ -11,9 +11,10 @@ body {
   );
   
   h1 {
+
     @include xm-device {
       font-size: 55px;
-      line-height: 98px;
+      line-height: 52px;
     }
   }
 
@@ -45,7 +46,8 @@ body {
 
 .planet{
   &__logo{
-    width: 327px;
+    width: 127px;
+    margin-right: 20px;
     @include xm-device {
       width: 100%;
     }
@@ -68,6 +70,12 @@ body {
     @include desktop {
       right: 336px;
     }
+  }
+}
+.container{
+  &__1{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 .wrap {
