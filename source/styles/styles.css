@@ -217,6 +217,16 @@ body .grid {
 .marvel__section {
   margin-top: 40px;
 }
+.marvel__section ul {
+  list-style: none;
+}
+.marvel__section ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 52px;
+  color: #5e636e;
+}
 .marvel__course {
   display: grid;
   background: #fafafa;
