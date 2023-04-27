@@ -53,7 +53,7 @@ body h2 {
           margin-inline-end: 0px;
   font-style: normal;
   font-weight: 800;
-  font-size: 58.0501px;
+  font-size: 48.0501px;
   line-height: 71px;
 }
 @media (max-width: 599px) {
@@ -95,7 +95,7 @@ body p {
           margin-inline-end: 0px;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 52px;
   color: #5e636e;
 }
@@ -122,7 +122,6 @@ body a {
   text-decoration: inherit;
 }
 body header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 10px 30px 12px 30px;
@@ -223,7 +222,7 @@ body .grid {
 .marvel__section ul li a {
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 52px;
   color: #5e636e;
 }
@@ -284,10 +283,8 @@ body .grid {
   line-height: 2rem;
 }
 .marvel__column__now {
-  -webkit-animation: rainbow 2.5s linear;
-          animation: rainbow 2.5s linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -368,10 +365,8 @@ body .grid {
   color: #a259fe;
 }
 .t__rainbow:hover {
-  -webkit-animation: rainbow 2.5s linear;
-          animation: rainbow 2.5s linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
 }
 .t__marker {
   background-color: rgba(39, 39, 39, 0.993);
@@ -395,60 +390,18 @@ body .grid {
 }
 
 .slow_shake_it:hover {
-  -webkit-animation: shake 4.5s;
-          animation: shake 4.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: shake 4.5s;
+  animation-iteration-count: infinite;
 }
 
 .medium_shake_it:hover {
-  -webkit-animation: shake 2.5s;
-          animation: shake 2.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: shake 2.5s;
+  animation-iteration-count: infinite;
 }
 
 .shake_it:hover {
-  -webkit-animation: shake 0.5s;
-          animation: shake 0.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes shake {
@@ -487,41 +440,11 @@ body .grid {
   }
 }
 .wave {
-  -webkit-animation-name: wave-animation;
-          animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s; /* Change to speed up or slow down */
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite; /* Never stop waving :) */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
-}
-
-@-webkit-keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
 }
 
 @keyframes wave-animation {
@@ -548,44 +471,6 @@ body .grid {
   } /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
-  }
-}
-@-webkit-keyframes rainbow {
-  100%, 0% {
-    color: rgb(255, 0, 0);
-  }
-  8% {
-    color: rgb(255, 127, 0);
-  }
-  16% {
-    color: rgb(255, 255, 0);
-  }
-  25% {
-    color: rgb(127, 255, 0);
-  }
-  33% {
-    color: rgb(0, 255, 0);
-  }
-  41% {
-    color: rgb(0, 255, 127);
-  }
-  50% {
-    color: rgb(0, 255, 255);
-  }
-  58% {
-    color: rgb(0, 127, 255);
-  }
-  66% {
-    color: rgb(0, 0, 255);
-  }
-  75% {
-    color: rgb(127, 0, 255);
-  }
-  83% {
-    color: rgb(255, 0, 255);
-  }
-  91% {
-    color: rgb(255, 0, 127);
   }
 }
 @keyframes rainbow {
@@ -642,46 +527,18 @@ body .grid {
 }
 
 .box {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  height: 50px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 25px;
   margin: 0 auto 0 auto;
   transform-origin: bottom;
-  width: 50px;
-  margin: 15px;
+  width: 25px;
+  margin: 8px;
 }
 
 .jump:hover {
-  -webkit-animation-name: jump;
-          animation-name: jump;
-  -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-          animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-}
-
-@-webkit-keyframes jump {
-  0% {
-    transform: scale(1, 1) translateY(0);
-  }
-  10% {
-    transform: scale(1.1, 0.9) translateY(0);
-  }
-  30% {
-    transform: scale(0.9, 1.1) translateY(-40px);
-  }
-  50% {
-    transform: scale(1.05, 0.95) translateY(0);
-  }
-  57% {
-    transform: scale(1, 1) translateY(-7px);
-  }
-  64% {
-    transform: scale(1, 1) translateY(0);
-  }
-  100% {
-    transform: scale(1, 1) translateY(0);
-  }
+  animation-name: jump;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
 }
 
 @keyframes jump {

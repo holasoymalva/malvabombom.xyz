@@ -47,7 +47,7 @@ body {
     margin-inline-end: 0px;
     font-style: normal;
     font-weight: 800;
-    font-size: 58.0501px;
+    font-size: 48.0501px;
     line-height: 71px;
     @include xm-device {
       font-size: 39px;
@@ -77,7 +77,7 @@ body {
     margin-inline-end: 0px;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 52px;
     color: $color__gray;
 
@@ -185,7 +185,7 @@ body {
       li a {
         font-style: normal;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 52px;
         color: $color__gray;
       }
@@ -495,11 +495,11 @@ body {
 .box {
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  height: 50px;
+  height: 25px;
   margin: 0 auto 0 auto;
   transform-origin: bottom;
-  width: 50px;
-  margin: 15px;
+  width: 25px;
+  margin: 8px;
 }
 .jump:hover {
   animation-name: jump;
