@@ -480,14 +480,17 @@ body {
 .stage {
   margin-top: 45px;
   width: 100%;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: space-evenly;
   justify-content: space-around;
   // THis is in responsive
   @include xm-device { 
     display: flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: space-around;
   }
 }
