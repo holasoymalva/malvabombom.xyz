@@ -480,12 +480,12 @@ body {
 .stage {
   margin-top: 45px;
   width: 100%;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  justify-content: space-around;
   // THis is in responsive
-  @include xm-device {
+  @include xm-device { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -500,6 +500,11 @@ body {
   transform-origin: bottom;
   width: 25px;
   margin: 8px;
+  @include xm-device{
+    width: 18px;
+    margin: 8px;
+    height: 18px;
+  }
 }
 .jump:hover {
   animation-name: jump;
