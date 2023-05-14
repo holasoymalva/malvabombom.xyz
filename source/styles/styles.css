@@ -517,6 +517,7 @@ body .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  justify-content: space-around;
 }
 @media (max-width: 599px) {
   .stage {
@@ -534,6 +535,13 @@ body .grid {
   transform-origin: bottom;
   width: 25px;
   margin: 8px;
+}
+@media (max-width: 599px) {
+  .box {
+    width: 18px;
+    margin: 8px;
+    height: 18px;
+  }
 }
 
 .jump:hover {
