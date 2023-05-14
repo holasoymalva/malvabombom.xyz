@@ -482,10 +482,11 @@ body {
   width: 100%;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
   justify-content: space-evenly;
-  justify-content: space-around;
   // THis is in responsive
   @include xm-device { 
     display: flex;
