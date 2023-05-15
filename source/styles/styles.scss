@@ -487,8 +487,9 @@ body {
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: space-evenly;
-  // THis is in responsive
+  // this is a temporal fix
   @include xm-device { 
+    width: 200px;
     display: flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;

@@ -514,14 +514,14 @@ body .grid {
 .stage {
   margin-top: 45px;
   width: 100%;
-  -webkit-flex-wrap: wrap;
+  display: flex;
   flex-wrap: wrap;
-  -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: space-evenly;
 }
 @media (max-width: 599px) {
   .stage {
+    width: 200px;
     display: flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
