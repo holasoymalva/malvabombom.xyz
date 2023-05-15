@@ -492,7 +492,7 @@ body {
     width: 200px;
     display: flex;
     flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
   }
 }
