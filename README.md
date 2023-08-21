@@ -69,3 +69,9 @@ Thank you for reading. <3
 [in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
 [ig-link]: https://www.instagram.com/malvabombom/
 [tt-link]: https://www.tiktok.com/@malvabombom
+
+Referencias V2:
+
+* https://www.figma.com/community/file/1182197835889504018/Portfolio-Design
+* https://www.figma.com/community/file/1266863403759514317/Geist---UI-Kit-for-Figma
+* https://www.figma.com/community/file/1218023713246072698
