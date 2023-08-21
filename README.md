@@ -75,3 +75,6 @@ Referencias V2:
 * https://www.figma.com/community/file/1182197835889504018/Portfolio-Design
 * https://www.figma.com/community/file/1266863403759514317/Geist---UI-Kit-for-Figma
 * https://www.figma.com/community/file/1218023713246072698
+* https://www.figma.com/community/file/1243923291480495764
+* https://www.figma.com/community/file/1228726827056833329
+* https://www.figma.com/community/file/1168838524032065880
