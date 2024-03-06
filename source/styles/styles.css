@@ -518,6 +518,7 @@ body .grid {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: space-around;
 }
 @media (max-width: 599px) {
   .stage {
