@@ -22,14 +22,10 @@ body {
 }
 body h1 {
   display: block;
-  -webkit-margin-before: 0.67em;
-          margin-block-start: 0.67em;
-  -webkit-margin-after: 0.67em;
-          margin-block-end: 0.67em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-style: normal;
   font-weight: 800;
   font-size: 75.273px;
@@ -43,14 +39,10 @@ body h1 {
 }
 body h2 {
   display: block;
-  -webkit-margin-before: 0.83em;
-          margin-block-start: 0.83em;
-  -webkit-margin-after: 0.83em;
-          margin-block-end: 0.83em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-style: normal;
   font-weight: 800;
   font-size: 48.0501px;
@@ -64,14 +56,10 @@ body h2 {
 }
 body h3 {
   display: block;
-  -webkit-margin-before: 0.83em;
-          margin-block-start: 0.83em;
-  -webkit-margin-after: 0.83em;
-          margin-block-end: 0.83em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-style: normal;
   font-weight: 800;
   font-size: 48.0501px;
@@ -85,14 +73,10 @@ body h3 {
 }
 body p {
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
@@ -127,11 +111,16 @@ body header {
   padding: 10px 30px 12px 30px;
   background: linear-gradient(180deg, #ffffff 53.17%, rgba(255, 255, 255, 0) 100%);
   height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 1200px) {
   body header {
     padding: 10px 120px 12px 120px;
   }
+}
+body header .languages {
+  background-color: transparent;
 }
 body footer {
   flex-shrink: 0;

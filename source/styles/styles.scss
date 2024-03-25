@@ -101,8 +101,7 @@ body {
   header {
     position: sticky;
     top: 0;
-    padding: 10px 30px 12px 30px;
-
+    padding: 10px 30px 12px 30px;    
     background: linear-gradient(
       180deg,
       #ffffff 53.17%,
@@ -112,6 +111,11 @@ body {
       padding: 10px 120px 12px 120px;
     }
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    .languages {
+      background-color: transparent;
+    }
   }
   footer {
     flex-shrink: 0;
