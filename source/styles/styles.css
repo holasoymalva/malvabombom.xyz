@@ -332,6 +332,11 @@ body .grid {
   z-index: 2;
 }
 
+.languages {
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .mrg-20 {
   margin-top: -20px;
 }

@@ -23,7 +23,7 @@
   <body>
     <header>
       <p><a href="/" class="t__uva t__rainbow">@holasoymalva</a></p>
-      <button class="languages" type="button"><p>🇺🇸|🇪🇸</p></button>
+      <button class="languages" type="button" id="languageButton"><p>🇺🇸|🇪🇸</p></button>
     </header>
     <div class="marvel">
       <section class="marvel__intro">
@@ -37,14 +37,13 @@
             style="height: 140px; margin-bottom: -12px"
           ></video>
           <br />
-          Hi, I’m <span class="t__marker">Martin</span>
-          <span class="wave">👋</span>
+          <span id="intro">Hi, I’m <span class="t__marker">Martin</span><span class="wave">👋</span></span>
         </h1>
-        <p class="t__rainbow">Developer, Maker & Designer</p>
+        <p class="t__rainbow" id="introDescription">Developer, Maker & Designer</p>
       </section>
       <section class="marvel__section">
-        <h2><span class="t__marker">About</span>Me</h2>
-        <p>
+        <h2><span class="t__marker">About</span> Me</h2>
+        <p id="about">
           Hi <span class="wave">👋</span>, My name is
           <span class="t__uva">Martin</span> and I am a
           <span class="t__bold t__uva">Software Engineer 🧑🏽‍💻</span> with
@@ -380,5 +379,6 @@
       </section>
     </div>
     <footer class="t__rainbow">Made with 🌮 and Good Vibes 🍟</footer>
+    <script src="source/scripts/translate.js"></script>
   </body>
 </html>
