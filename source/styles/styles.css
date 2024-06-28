@@ -143,11 +143,17 @@ body header {
   height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 @media (min-width: 1200px) {
   body header {
     padding: 10px 120px 12px 120px;
   }
+}
+body header .header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 body header .languages, body header .mode-toggle {
   background-color: transparent;
