@@ -22,6 +22,47 @@ body {
   color: $color__dark;
   font-family: "Montserrat", sans-serif;
 
+  &.dark-mode {
+    background-color: $color__dark;
+    color: $color__blanco;
+
+    a {
+      color: $color__blanco;
+    }
+    
+    p {
+      color: $color__blanco;
+    }
+
+    .t__uva {
+      color: $color__amarillo;
+    }
+
+    .t__marker {
+      background-color: $color__blanco;
+      color: $color__dark;
+    }
+
+    header {
+      background: linear-gradient(
+        180deg,
+        $color__dark 53.17%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
+
+    .project {
+      background: $color__dark;
+      &__header {
+        background: $color__dark;
+      }
+    }
+
+    footer {
+      color: $color__blanco;
+    }
+  }
+
   h1 {
     display: block;
     margin-block-start: 0.67em;
@@ -114,7 +155,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    .languages {
+    .languages, .mode-toggle {
       background-color: transparent;
     }
   }
@@ -311,6 +352,12 @@ body {
 .languages {
   background-color: transparent;
   cursor: pointer;
+}
+
+.mode-toggle {
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .mrg-20 {
