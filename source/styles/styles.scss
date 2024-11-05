@@ -603,3 +603,114 @@ body {
     transform: scale(1, 1) translateY(0);
   }
 }
+
+
+
+.tech-stack {
+  --bar-height: 6px;
+  --bar-radius: 3px;
+  --primary-color: var(--color-uva, #a259fe);
+  --secondary-color: var(--color-gray, #5e636e);
+}
+
+.tech-stack__categories {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-stack__category {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tech-stack__category:hover {
+  transform: translateY(-5px);
+}
+
+.category__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(162, 89, 254, 0.1);
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.experience-bar {
+  width: 100%;
+  height: var(--bar-height);
+  background: rgba(94, 99, 110, 0.2);
+  border-radius: var(--bar-radius);
+  overflow: hidden;
+}
+
+.experience-fill {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: var(--bar-radius);
+  transition: width 1s ease;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tech-tag {
+  background: rgba(162, 89, 254, 0.1);
+  color: var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .skill-item {
+    padding: 0.75rem;
+  }
+  
+  .skill-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
