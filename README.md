@@ -62,7 +62,7 @@ Thank you for reading. <3
 [fb]: https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
-[as]: https://malvabombom.xyz/
+[as]: https://holasoymalva.com/
 [ny-link]: https://gleaming-basbousa-b25172.netlify.app/ 
 [sass]: https://sass-lang.com
 [imgl]: https://imagesloaded.desandro.com
