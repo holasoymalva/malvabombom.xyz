@@ -367,6 +367,22 @@ body .grid {
   z-index: 2;
 }
 
+video {
+  background: transparent;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  mix-blend-mode: normal;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  line-height: 0;
+  font-size: 0;
+}
+
 .languages {
   background-color: transparent;
   cursor: pointer;
