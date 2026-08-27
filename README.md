@@ -1,5 +1,8 @@
 # 👾 Martin Manriquez (@holasoymalva) — Personal Portfolio
 
+<img width="1511" height="862" alt="image" src="https://github.com/user-attachments/assets/faa8862b-6777-4af0-ae3c-e5412487d8fd" />
+
+
 > Retro 8-Bit Arcade & Notion Pixel Art Interactive Experience
 
 [![Live Site](https://img.shields.io/badge/Live-holasoymalva.com-ffb703?style=for-the-badge&logo=google-chrome&logoColor=white)](https://holasoymalva.com/)
